@@ -1,0 +1,13 @@
+cohort,n_systems,contrast,delta_mae_A,ci95_low_A,ci95_high_A
+ATLAS222,170,ridge_minus_persistence,0.058182,-0.047322,0.161351
+ATLAS222,170,gru_minus_persistence,-0.025475,-0.060454,0.008170
+ATLAS222,170,gru_minus_ridge,-0.083656,-0.185512,0.016454
+ATLAS362,286,ridge_minus_persistence,-0.018264,-0.108442,0.075214
+ATLAS362,286,gru_minus_persistence,-0.039122,-0.076778,-0.003907
+ATLAS362,286,gru_minus_ridge,-0.020857,-0.102876,0.056521
+ATLAS742,596,ridge_minus_persistence,-0.035142,-0.086130,0.017231
+ATLAS742,596,gru_minus_persistence,-0.048515,-0.066779,-0.030166
+ATLAS742,596,gru_minus_ridge,-0.013373,-0.061338,0.031734
+ATLAS942,757,ridge_minus_persistence,-0.062941,-0.103891,-0.023940
+ATLAS942,757,gru_minus_persistence,-0.037302,-0.052433,-0.022014
+ATLAS942,757,gru_minus_ridge,0.025639,-0.009767,0.061847

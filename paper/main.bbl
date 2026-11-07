@@ -1,0 +1,37 @@
+\begin{thebibliography}{1}
+
+\bibitem{Chodera2016Equilibration}
+John~D. Chodera.
+\newblock A simple method for automated equilibration detection in molecular
+  simulations.
+\newblock {\em Journal of Chemical Theory and Computation}, 12(4):1799--1805,
+  2016.
+
+\bibitem{HernandoGallego2026Mathematics}
+Francisco Hernando-Gallego, Diego Garc{\'i}a-Santos, Dimitar Vasilev-Vasilev,
+  Diego Mart{\'i}n, and Jos{\'e}~Vicente {\'A}lvarez-Bravo.
+\newblock Metaheuristic optimization of temporal surrogates for early
+  prediction of protein conformational stability from short molecular-dynamics
+  trajectories.
+\newblock {\em Mathematics}, 14:3679, 2026.
+
+\bibitem{Kabsch1983DSSP}
+Wolfgang Kabsch and Christian Sander.
+\newblock Dictionary of protein secondary structure: Pattern recognition of
+  hydrogen-bonded and geometrical features.
+\newblock {\em Biopolymers}, 22(12):2577--2637, 1983.
+
+\bibitem{Mirarchi2024mdCATH}
+Antonio Mirarchi, Toni Giorgino, and Gianni De~Fabritiis.
+\newblock {mdCATH}: A large-scale {MD} dataset for data-driven computational
+  biophysics.
+\newblock {\em Scientific Data}, 11:1299, 2024.
+
+\bibitem{VanderMeersche2024ATLAS}
+Yann Vander~Meersche, Gabriel Cretin, Aria Gheeraert, Jean-Christophe Gelly,
+  and Tatiana Galochkina.
+\newblock {ATLAS}: Protein flexibility description from atomistic molecular
+  dynamics simulations.
+\newblock {\em Nucleic Acids Research}, 52(D1):D384--D392, 2024.
+
+\end{thebibliography}

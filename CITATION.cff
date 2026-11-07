@@ -17,9 +17,11 @@ authors:
     affiliation: "Universidad de Valladolid"
   - family-names: Gómez-Gómez
     given-names: Alberto
+    orcid: "https://orcid.org/0009-0007-3009-5353"
     affiliation: "Independent researcher"
   - family-names: Campo-Camacho
     given-names: Alfonso
+    orcid: "https://orcid.org/0009-0002-2234-4341"
     affiliation: "Independent researcher"
 year: 2026
 repository-code: "https://github.com/fhernandogallego/md-anytime-stopping"

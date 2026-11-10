@@ -1,0 +1,11 @@
+{
+  "calculation": "c1_conformal",
+  "levels": [
+    0.9,
+    0.95
+  ],
+  "method": "cross-conformal on out-of-fold predictions; calibration from the other outer folds",
+  "predictions": "resultados/c3_strand/system_predictions.csv",
+  "predictions_sha256": "87495b1a56edb1029daf89733477bebd8846ca59f05ad011485f76b8c15e0615",
+  "scaled_variant": true
+}

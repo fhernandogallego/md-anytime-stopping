@@ -1,0 +1,16 @@
+target,prefix_ns,fold,ridge_alpha,structure_alpha,prefix_structure_alpha,ridge_alpha_original_grid
+strand,5.0,0,0.1,1.0,1.0,
+strand,5.0,1,0.1,1.0,0.01,
+strand,5.0,2,0.1,1.0,1.0,
+strand,5.0,3,0.1,1.0,0.1,
+strand,5.0,4,0.1,1.0,1.0,
+strand,10.0,0,0.01,1.0,0.01,
+strand,10.0,1,0.01,1.0,0.01,
+strand,10.0,2,1.0,1.0,1.0,
+strand,10.0,3,0.1,1.0,0.1,
+strand,10.0,4,0.01,1.0,0.1,
+strand,20.0,0,0.1,1.0,0.1,0.1
+strand,20.0,1,0.1,1.0,0.01,0.1
+strand,20.0,2,0.1,1.0,0.01,0.1
+strand,20.0,3,0.1,1.0,0.1,0.1
+strand,20.0,4,0.01,1.0,0.1,0.01

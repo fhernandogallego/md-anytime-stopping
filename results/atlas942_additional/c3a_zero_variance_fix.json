@@ -1,0 +1,8 @@
+{
+  "reason": "PyMBAR zero sample covariance on a constant future window",
+  "method": "np.ptp(seg) < 1e-12 -> g=1",
+  "scientific_note": "g=1 para una serie constante es una convencion de calculo, no una demostracion de independencia.",
+  "original_sha256": "9ca54fa8e5eae461de5777472306a8616718d863ab0536fd69c17a41d2384a57",
+  "patched_sha256": "f60ca234b6b956ba32b18bf80f2fcad78fb525ba34149e9839c35b83bd07b07f",
+  "original_backup": "inputs/c3_build_targets_before_zero_variance_fix.py"
+}

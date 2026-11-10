@@ -1,0 +1,47 @@
+{
+  "alphas_extended": [
+    0.01,
+    0.1,
+    1.0,
+    10.0,
+    100.0,
+    300.0,
+    1000.0,
+    3000.0,
+    10000.0
+  ],
+  "bootstrap_draws": 10000,
+  "calculation": "c3_sweep",
+  "prefix_ns": [
+    5.0,
+    10.0,
+    20.0
+  ],
+  "run": "<project>/md-hpc-benchmarks/results/paper2_automation/auto_20261030_091302/training",
+  "structure_feature_names": [
+    "n_residues",
+    "frac_hydrophobic",
+    "frac_charged",
+    "frac_polar",
+    "frac_gly",
+    "frac_pro",
+    "frac_aromatic",
+    "rg_ca_A",
+    "rg_over_n13",
+    "sasa_total_A2",
+    "sasa_per_residue_A2",
+    "helix_fraction",
+    "strand_fraction",
+    "coil_fraction",
+    "relative_contact_order",
+    "ca_contacts_per_residue",
+    "end_to_end_A"
+  ],
+  "structure_features": "resultados/c2_structure_features.csv",
+  "structure_imputed_last_target": [],
+  "targets": [
+    "rg"
+  ],
+  "targets_sha256": "326d9e377eec1ecaf7d0a8694c2404908ab51c3589ac01d4ee628bb00ed20d07",
+  "validation_test_evaluated": false
+}

@@ -1,0 +1,6 @@
+target,prefix_ns,fold,ridge_alpha,ridge_alpha_original_grid,structure_alpha,prefix_structure_alpha
+rmsd,20.0,0,10.0,10.0,100.0,100.0
+rmsd,20.0,1,100.0,100.0,100.0,100.0
+rmsd,20.0,2,100.0,100.0,10.0,100.0
+rmsd,20.0,3,100.0,100.0,100.0,100.0
+rmsd,20.0,4,100.0,100.0,10.0,100.0

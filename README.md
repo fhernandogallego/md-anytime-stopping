@@ -18,6 +18,22 @@ The preprint formulates data-dependent stopping of MD simulations as an anytime-
 | `results/atlas942/` | System-level metrics, paired-bootstrap audit and run summary for the largest cohort, as produced by the pipeline |
 | `figures/make_fig1.py` | Redraws Figure 1 from `results/paired_contrasts.csv` |
 | `code/` | Snapshot of the training and evaluation code used for the ATLAS942 run (future-only target builder, ridge on 48 prefix summaries, residual GRU, baselines, fold worker and full refit) |
+| `results/atlas942_additional/` | Additional ATLAS942 analyses for the journal version (see below) |
+| `code/additional/` | Scripts that produced them: structure descriptors, multi-observable targets, prefix-length sweep and cross-conformal intervals |
+
+## Additional ATLAS942 analyses (November 2026)
+
+Run on the same outer folds, sequence groups and replica masks as the ATLAS942 cohort, without evaluating validation or test predictions. Ridge with the original penalty grid reproduces the reported RMSD MAE (0.610037 Å) in `regression_check/`.
+
+| Path | Content |
+|---|---|
+| `structure_features.csv` | 17 descriptors of the starting ATLAS structure of each chain (no trajectory frames) |
+| `forecast_<observable>/` | Out-of-fold metrics, paired contrasts, fold-wise selections and system-level predictions for persistence, prefix mean, ridge (extended grid), structure-only ridge, prefix + structure ridge and, for RMSD and core RMSD, the residual GRU, with 5, 10 and 20 ns prefixes |
+| `conformal_<observable>/` | Cross-conformal coverage and width (absolute, group-max and, for RMSD, scaled scores) and coverage by quartile |
+| `c3_targets.summary.json` | Valid replicas and systems per observable for the future-only targets |
+| `c3a_zero_variance_fix.json` | Constant future windows (11 helix, 350 strand) where PyMBAR's inefficiency is undefined; g = 1 is used as a computational convention |
+
+Observables: backbone RMSD, replica-specific core RMSD (30th RMSF quantile, core defined on the prefix), radius of gyration, total SASA, and helix and strand fractions.
 
 Redraw the figure with:
 

@@ -1,0 +1,12 @@
+{
+  "_note": "Check every 'series_file' and 'column' with --inspect before building. series_file is an inventory column; {r} is the replica (1-3). master_target_name is the target_name used in master_targets_csv for that observable's t0; if it is missing, default_t0_ns is used.",
+  "default_t0_ns": 0.0,
+  "targets": {
+    "rmsd":          {"series_file": "basic_R{r}_csv", "column": "rmsd_backbone_A",   "master_target_name": "rmsd"},
+    "core_rmsd_q30": {"series_file": "basic_R{r}_csv", "column": "core_rmsd_q30_A",   "master_target_name": "rmsd"},
+    "rg":            {"series_file": "basic_R{r}_csv", "column": "radius_gyration_A", "master_target_name": "rg"},
+    "sasa":          {"series_file": "basic_R{r}_csv", "column": "total_sasa_A2",     "master_target_name": "sasa"},
+    "helix":         {"series_file": "basic_R{r}_csv", "column": "helix_fraction",    "master_target_name": "helix"},
+    "strand":        {"series_file": "basic_R{r}_csv", "column": "strand_fraction",   "master_target_name": "strand"}
+  }
+}

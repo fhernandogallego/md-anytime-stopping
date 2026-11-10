@@ -1,0 +1,80 @@
+{
+  "calculation": "c3_build_targets",
+  "config": {
+    "_note": "Fuentes exactas del cohorte ATLAS942. Core RMSD: replica_prefix_rmsd_A (NO oracle).",
+    "default_t0_ns": 0.0,
+    "targets": {
+      "core_rmsd_q30": {
+        "column": "replica_prefix_rmsd_A",
+        "master_target_name": "rmsd",
+        "series_file": "core_R{r}_csv"
+      },
+      "helix": {
+        "column": "helix_fraction",
+        "master_target_name": "helix",
+        "series_file": "sasa_R{r}_csv"
+      },
+      "rg": {
+        "column": "radius_gyration_A",
+        "master_target_name": "rg",
+        "series_file": "basic_R{r}_csv"
+      },
+      "rmsd": {
+        "column": "rmsd_backbone_A",
+        "master_target_name": "rmsd",
+        "series_file": "basic_R{r}_csv"
+      },
+      "sasa": {
+        "column": "total_sasa_A2",
+        "master_target_name": "sasa",
+        "series_file": "sasa_R{r}_csv"
+      },
+      "strand": {
+        "column": "strand_fraction",
+        "master_target_name": "strand",
+        "series_file": "sasa_R{r}_csv"
+      }
+    }
+  },
+  "inventory_sha256": "19365fc2b891c39ae86c0d520957772957ede9010d6a23675180b2797493ab9e",
+  "n_problems": 0,
+  "per_target": {
+    "core_rmsd_q30": {
+      "constant_windows": 0,
+      "replicas": 2271,
+      "valid_replicas": 1136,
+      "valid_systems": 712
+    },
+    "helix": {
+      "constant_windows": 11,
+      "replicas": 2271,
+      "valid_replicas": 1549,
+      "valid_systems": 728
+    },
+    "rg": {
+      "constant_windows": 0,
+      "replicas": 2271,
+      "valid_replicas": 992,
+      "valid_systems": 610
+    },
+    "rmsd": {
+      "constant_windows": 0,
+      "replicas": 2271,
+      "valid_replicas": 1243,
+      "valid_systems": 757
+    },
+    "sasa": {
+      "constant_windows": 0,
+      "replicas": 2271,
+      "valid_replicas": 1384,
+      "valid_systems": 701
+    },
+    "strand": {
+      "constant_windows": 350,
+      "replicas": 2271,
+      "valid_replicas": 1547,
+      "valid_systems": 728
+    }
+  },
+  "problems": []
+}
